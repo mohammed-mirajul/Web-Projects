@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Blog Project</title>
+</head>
+<body>
+    <!-- Top Navbar -->
+    <nav>
+        <div class="container nav-container">
+            <div class="brand-logo">
+                <a href="index.html">
+                    <img src="img/logo.svg" alt="brand-logo">
+                </a>
+            </div>
+            <div class="nav-items lang">
+                <ul>
+                    <li class="active-lang">
+                        <a href="#">EN</a>
+                    </li>
+                    <li>
+                        <a href="#">PT</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-items">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">Blog</a>
+                    </li>
+                    <li class="active"> 
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li class="btn"> 
+                        <a href="#">Batton</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content Area -->
+
+    <main class="container">
+        <h1>Contact</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus praesentium ullam perferendis nostrum non modi beatae perspiciatis odit facere atque architecto, ex sunt dignissimos quia aut ratione nisi suscipit aspernatur.</p>
+        <div class="form-container">
+            <form>
+                <div class="form-group">
+                    <label for="name">Enter Your Name</label>
+                    <input class="form-input-field" type="text" placeholder="Jone Doe" id="name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Enter Your Email</label>
+                    <input class="form-input-field" type="email" placeholder="jone@gamil.com" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Write Down Your Message</label>
+                    <textarea class="form-textarea" id="message" cols="30" rows="10"></textarea>
+                </div>
+                <div class="form-group">
+                    <input class="form-submit-button" type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <!-- Main Footer -->
+    <hr class="footer">
+    <footer class="container">
+        <div class="icons">
+           <a target="_blank" href="#">
+            <span>
+                <i class="fab fa-github"></i>
+            </span>
+           </a>
+           <a target="_blank" href="#">
+            <span>
+                <i class="fab fa-twitter"></i>
+            </span>
+           </a>
+        </div>
+        <div>
+            <p>Iceberg Gatsby is a PWA, save it for offline reading. <a href="#">See more PWA here</a>.</p>
+            <p>Maintained by <a href="#">@_diogorodrigues</a>. You can always contribute with the project on <a href="#">Github</a>.</p>
+        </div>
+    </footer>
+</body>
+</html>
